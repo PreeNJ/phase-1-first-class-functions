@@ -20,3 +20,7 @@ namedFunc();
 
 const anonymousFunc = returnsAnAnonymousFunction();
 anonymousFunc(); 
+
+const returnFirstTwoDrivers([`John Abadi`, `Jane Doe`, `Mary Smith`, `Bob Johnson`]) {
+    return [drivers[0], drivers[1]];
+};
